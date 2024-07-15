@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0aeb53d6.css",
+    "main.js": "/portfolio/static/js/main.7d439c98.js",
+    "static/js/453.d73b0aaa.chunk.js": "/portfolio/static/js/453.d73b0aaa.chunk.js",
+    "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/react.png": "/portfolio/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/email.png": "/portfolio/static/media/email.f63e314696a068b00d5b.png",
+    "static/media/java.png": "/portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/location.png": "/portfolio/static/media/location.64cdcb0ef97818161310.png",
+    "static/media/c.png": "/portfolio/static/media/c.f004685eeda8df1f684e.png",
+    "static/media/typescript.png": "/portfolio/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/spring-initializr.svg": "/portfolio/static/media/spring-initializr.49dc9e451e6d7385d4958b757dfe348b.svg",
+    "static/media/go-logo-white.svg": "/portfolio/static/media/go-logo-white.84e7f94ec0d0a2f32d448bf1ae8dd14a.svg",
+    "index.html": "/portfolio/index.html",
+    "main.0aeb53d6.css.map": "/portfolio/static/css/main.0aeb53d6.css.map",
+    "main.7d439c98.js.map": "/portfolio/static/js/main.7d439c98.js.map",
+    "453.d73b0aaa.chunk.js.map": "/portfolio/static/js/453.d73b0aaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0aeb53d6.css",
+    "static/js/main.7d439c98.js"
+  ]
+}
