@@ -10,7 +10,7 @@ const Skills = () => {
         <h2>Skills</h2>
         <h3>Technical Skills</h3>
       </hgroup>
-      <div className='grid grid-cols-3 m-20 items-center w-fit' >
+      <div className='grid grid-cols-3 m-20 gap-10 items-center w-fit' >
         <div className='grid-item'><img className='size-28 m-5' src={logo.javaLogo} alt="" /></div>
         <div className='grid-item'><img className='size-28 m-5' src={logo.pyLogo} alt="" /></div>
         <div className='grid-item'><img className='size-28 m-5' src={logo.cLogo} alt="" /></div>
