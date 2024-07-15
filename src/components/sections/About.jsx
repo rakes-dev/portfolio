@@ -4,11 +4,11 @@ const About = () => {
   return (
     <section id="about">
       <div className='about-container'>
-        <div className='text-area'>
+        <div className='text-area px-20 p-8'>
           <h2 className='text-5xl m-4'>About Me</h2>  
-        <div>
+        <div className='bg-white rounded p-4'>
           <h3>Introduction</h3>
-        <p>Hello! I am a passionate software developer with a solid foundation in programming, 
+        <p >Hello! I am a passionate software developer with a solid foundation in programming, 
           software development, and problem-solving. Proficient in Java, Python, and other technologies, 
           I am constantly seeking opportunities to gain real-world experience and contribute to diverse software projects. 
           My technical skills and adaptability make me a valuable asset to any team, 
