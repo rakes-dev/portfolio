@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0aeb53d6.css",
-    "main.js": "/portfolio/static/js/main.7d439c98.js",
+    "main.css": "/portfolio/static/css/main.13dcfe81.css",
+    "main.js": "/portfolio/static/js/main.b98dd696.js",
     "static/js/453.d73b0aaa.chunk.js": "/portfolio/static/js/453.d73b0aaa.chunk.js",
     "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/react.png": "/portfolio/static/media/react.07d9e407d4e491c548d5.png",
@@ -15,12 +15,12 @@
     "static/media/spring-initializr.svg": "/portfolio/static/media/spring-initializr.49dc9e451e6d7385d4958b757dfe348b.svg",
     "static/media/go-logo-white.svg": "/portfolio/static/media/go-logo-white.84e7f94ec0d0a2f32d448bf1ae8dd14a.svg",
     "index.html": "/portfolio/index.html",
-    "main.0aeb53d6.css.map": "/portfolio/static/css/main.0aeb53d6.css.map",
-    "main.7d439c98.js.map": "/portfolio/static/js/main.7d439c98.js.map",
+    "main.13dcfe81.css.map": "/portfolio/static/css/main.13dcfe81.css.map",
+    "main.b98dd696.js.map": "/portfolio/static/js/main.b98dd696.js.map",
     "453.d73b0aaa.chunk.js.map": "/portfolio/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aeb53d6.css",
-    "static/js/main.7d439c98.js"
+    "static/css/main.13dcfe81.css",
+    "static/js/main.b98dd696.js"
   ]
 }
