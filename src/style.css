@@ -807,8 +807,6 @@ figcaption {
 
 .text-area h3{
   margin-bottom: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   padding: 3px 10px 3px 10px;
   -webkit-text-fill-color: rgb(255, 255, 255);
   background: linear-gradient(135deg, #f34079 40%, #fc894d);
