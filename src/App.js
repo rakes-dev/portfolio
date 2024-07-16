@@ -1,7 +1,8 @@
 import React from 'react';
+
 import Nav from './components/nav';
 import Main from './components/main';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 
 import './style.css';
 
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Nav />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

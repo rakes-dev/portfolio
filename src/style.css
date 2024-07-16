@@ -552,8 +552,9 @@ video {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 768px;
+    min-width: 768px;
   }
+
 }
 
 @media (min-width: 1024px) {
@@ -572,6 +573,11 @@ video {
   .container {
     max-width: 1536px;
   }
+}
+@media only screen and (max-device-width: 480px) {
+  .container {
+    width: 100%;
+    }
 }
 
 .flex {
@@ -730,9 +736,11 @@ figcaption {
   border-radius: 15px;
 }
 
+.grid-item:hover{
+  border: 5px solid red;
+}
+
 .grid-item h2{
-  /* margin: 0; */
-  /* font-size: 4vh; */
   text-align: center;
   background: linear-gradient(135deg, #f34079 40%, #fc894d),black;
   -webkit-background-clip: text;
@@ -769,17 +777,16 @@ figcaption {
   margin-top: 5px;
 }
 
-/* .grid-button{
-  display: block;
-  text-align: center;
-} */
 
 .btn a{
-  /* border-radius: 5px;
-  padding: 5px 15px; */
   color: white;
   text-decoration: none;
   background: linear-gradient(135deg, #f34079 40%, #fc894d);
+}
+.btn a:hover{
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 2px solid white;
 }
 
 .about-container{
@@ -811,33 +818,11 @@ figcaption {
   text-align: center;
 }
 
-/* .text-area div{
-  background-color: #ddd;
-  border-radius: 5px;
-  padding: 10px 10px 0 10px;
-} */
-
-footer {
-  margin-top: 3rem;
-  padding: 1rem 0;
-  border-top: 1px solid #ddd;
-  text-align: center;
-  background-color: #007bff;
-  color: #fff;
-}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1fr));
-  /* width: 100%; */
-  /* height: 100vh; */
-  gap: 2rem;
 }
 
 .project {
@@ -869,6 +854,7 @@ section {
 }
 
 form input, form button {
+  display: block;
   padding: 0.5rem;
   margin-bottom: 1rem;
   border: 1px solid #ccc;
@@ -877,13 +863,26 @@ form input, form button {
 }
 
 form button {
-  background-color: #007bff;
+  background-color: #fa4848;
   color: #fff;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
+  border: 2px solid black;  
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: #f81313;
+  border: 2px solid rgb(235, 235, 235);
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #fff;
+}
+footer a:hover{
+  color: salmon;
 }

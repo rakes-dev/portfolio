@@ -12,9 +12,9 @@ import go from '../../assests/img/go-logo-white.svg'
 
 const Dashboard = () => {
     return (
-        <section id="dashboard" className="">
+        <section id="dashboard">
             <div className="container-home">
-                <div className='img-area'>
+                <div className='img-area sm:w-auto'>
                 <figure>
                     <img src={img} alt="Developer" />
                     <figcaption>Rakesh Sardar</figcaption>
@@ -33,7 +33,7 @@ const Dashboard = () => {
                 <div>
                     <h1 className="text-5xl mt-5 text-red-400">Hello! I'm Rakesh</h1>
 
-                    <div className="grid-container">
+                    <div className="grid grid-cols-2 p-10 gap-8">
                     <div className="grid-item">
                             <h2 className="text-4xl m-2">INTRODUCTION</h2>
                             <div className="grid-text">
@@ -42,7 +42,7 @@ const Dashboard = () => {
                                 Python etc. I am confident in my technical abilities and adaptability, which will make me an asset to any
                                 organization. I eagerly await the opportunity to demonstrate my qualifications and contribute to your team.</p>
                                 <div className="text-center btn m-0">
-                                <a className="px-4 py-2 rounded-md" href="#home" type="button">More</a>
+                                <a className="px-4 py-2 rounded-md" href="#about" type="button">More</a>
                             </div>
                             </div>
                     </div>
@@ -59,7 +59,7 @@ const Dashboard = () => {
                                                 powering the frontend, and SpringBoot and MySQL forming the
                                                 backbone of the backend.</p>
                                         <div className="text-center btn mt-2">
-                                            <a className="px-4 py-2 rounded-md" href="#about" type="button">More</a>
+                                            <a className="px-4 py-2 rounded-md" href="#projects" type="button">More</a>
                                         </div>
                                 </div>   
                             </div>
@@ -89,7 +89,7 @@ const Dashboard = () => {
                                 </div> 
                                 </div> 
                                 <div className="text-center btn mt-4 mb-3 ">
-                                    <a className="px-4 py-2 rounded-md" href="#home" type="button">More</a>
+                                    <a className="px-4 py-2 rounded-md" href="#skills" type="button">More</a>
                                 </div>     
                             </div>
                         </div>

@@ -6,7 +6,7 @@ const About = () => {
       <div className='about-container'>
         <div className='text-area px-20 p-8'>
           <h2 className='text-5xl m-4'>About Me</h2>  
-        <div className='bg-white rounded p-4'>
+        <div className='text-white rounded p-4'>
           <h3>Introduction</h3>
         <p >Hello! I am a passionate software developer with a solid foundation in programming, 
           software development, and problem-solving. Proficient in Java, Python, and other technologies, 

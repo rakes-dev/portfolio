@@ -5,12 +5,12 @@ import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Education from './sections/Education';
 import Certifications from './sections/Certifications';
-// import Contact from './sections/Contact';
+import Contact from './sections/Contact';
 
 const Main = () => {
   return (
     <main className="container">
-      <div className="grid">
+      <div className="grid w-fit gap-10">
         <Dashboard/>
         <About />
         <Skills />
@@ -18,7 +18,7 @@ const Main = () => {
         <Education />
         <Certifications />
       </div>
-      {/* <Contact /> */}
+      <Contact />
     </main>
   );
 }

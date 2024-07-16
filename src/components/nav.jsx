@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <nav className="container-fluid bg-transparent backdrop-blur-sm fixed top-0 left-0 w-full shadow-md block">
+    <nav className="container-fluid top-0 left-0 w-full shadow-md block">
       <div className='nav'>
         <div className='left'>
            <h1><strong>My Profile</strong></h1>

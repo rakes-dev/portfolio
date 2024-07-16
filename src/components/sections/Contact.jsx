@@ -2,15 +2,15 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section aria-label="Subscribe example">
-      <div className="container">
+    <section aria-label="Subscribe example" className='mt-10' >
+      <div className="bg-black rounded-md p-10">
         <article>
-          <hgroup>
-            <h2>Contact Me</h2>
+          <div className='text-area'>
+            <h2 className='text-5xl'>CONTACT ME</h2>
             <h3>Get in touch</h3>
-          </hgroup>
+          </div>
           <form className="grid">
-            <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+            <input type="text" id="name" name="name" placeholder="Name" aria-label="First Name" required />
             <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required />
             <button type="submit" onClick={(e) => e.preventDefault()}>Subscribe</button>
           </form>
